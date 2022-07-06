@@ -1,0 +1,206 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+body {
+	position: relative;
+	height: 100%;
+}
+
+header {
+	background-color: lightseagreen;
+	text-align: center;
+	padding: 1em;
+}
+header a {
+	font-size: 1.5em;
+	font-family: 'Twinkle Star';
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.main {
+	padding: .3em;
+}
+.main form {
+	text-align: center;
+	margin: 1em 0;
+	width: 100%;
+}
+.main form input {
+	border: none;
+	background-color: #eee;
+	border-radius: 5px;
+	/*box-shadow: 0 0 1px #000;*/
+	padding: .05em .4em;
+	font-size: 1.1em;
+	width: 70%;
+	font-family: 'Swanky and Moo Moo', cursive;
+	font-weight: bold;
+}
+.main form button {
+	border: none;
+	border-radius: 5px;
+	background-color: lightseagreen;
+	padding: .05em .4em;
+	font-size: .9em;
+	width: 20%;
+	font-size: 1.1em;
+	color: #fff;
+	font-family: 'Swanky and Moo Moo', cursive;
+	font-weight: bold;
+}
+#send {
+	text-align: center;
+}
+
+a#send {
+	text-decoration: none;
+	color: lightseagreen;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+	transition: 1s;
+}
+
+.main table {
+	border: none;
+	width: 100%;
+	padding: .2em;
+}
+.main table tr {
+	display: inline-block;
+	width: 100%;
+}
+.main table tr td {
+	display: flex;
+	flex-direction: column;
+	margin: .5em 0;
+	/*border: 1px solid #000;*/
+	box-shadow: 0 0 3px #000;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	overflow: hidden;
+	width: 100%;
+}
+.main table tr td #message, .main table tr td #replies {
+	padding: .4em;
+}
+.main table tr td #message {
+	background-color: lightseagreen;
+	color: #fff;
+	font-family: 'Pangolin', cursive;
+}
+.main table tr td #replies {
+	background-color: skyblue;
+	font-family: 'Pangolin', cursive;	
+}
+
+
+h1#tl-send {
+	text-align: center;
+	font-size: 1.2em;
+	font-family: 'Twinkle Star';
+	font-weight: bold;
+	margin: 1em 0;
+}
+
+form#send ul li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	width: 50%;
+}
+form#send ul li label {
+	font-family: cursive;
+}
+form#send ul li input {
+	border: none;
+	font-size: 1em;
+	font-family: 'Pangolin';
+	padding: .3em .5em;
+	background-color: #eee;
+	border-radius: 5px;
+	margin: .4em;
+}
+form#send ul li button {
+	border: none;
+	background-color: lightseagreen;
+	font-size: 1em;
+	font-family: 'Twinkle Star';
+	font-weight: bold;
+	color: #fff;
+	border-radius: 5px;
+	padding: .3em 1em;
+	margin: .3em;
+}
+
+/*REPLIES*/
+table#replies tr td div a {
+	text-decoration: none;
+	font-family: cursive;
+}
+table#replies tr td div a#delete {
+	color: red;
+}
+table#replies tr td div a#edit {
+	color: blue;
+}
+
+
+/*UBAH*/
+form#replies {
+	margin: 2em;
+}
+form#replies ul li {
+	list-style: none;
+	margin: .5em 0;
+}
+form#replies ul li input#message {
+	border: none;
+	font-family: cursive;
+	color: lightseagreen;
+	font-size: 1em;
+}
+form#replies ul li input#replies {
+	border: none;
+	background-color: #eee;
+	box-shadow: 0 0 2px #000;
+	padding: .4em;
+	margin: .5em 0;
+	border-radius: 5px;
+	font-size: .9em;
+	font-family: cursive;
+}
+form#replies ul li button {
+	border: none;
+	background-color: lightseagreen;
+	padding: .4em .7em;
+	font-size: .9em;
+	font-weight: bold;
+	font-family: cursive;
+	border-radius: 5px;
+}
+form#replies ul li label {
+	font-family: cursive;
+	font-size: 1em;
+}
+
+
+footer {
+	background-color: lightseagreen;
+	text-align: center;
+	padding: .5em;
+	font-weight: 1.1em;
+	font-family: 'Swanky and Moo Moo', cursive;
+	color: #fff;
+	display: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
