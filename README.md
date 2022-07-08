@@ -1,9 +1,10 @@
 # AnonyChat
 Laman Kirim Pesan Rahasia atau Anonymous Chat sederhana. Menggunakan bahasa PHP untuk mengatur database.
 
-![AnonyChat - Brave 7_7_2022 3_50_42 AM](https://user-images.githubusercontent.com/103014406/177648129-4cc26989-9451-48a8-bddb-ff66cf49baeb.png)
-![AnonyChat - Brave 7_7_2022 3_53_29 AM](https://user-images.githubusercontent.com/103014406/177648299-58a31637-d9c1-46c3-b7b1-3d05daaa30d4.png)
-![AnonyChat - Brave 7_7_2022 3_54_25 AM](https://user-images.githubusercontent.com/103014406/177648368-a553a5c8-e952-4fb4-adbe-2f24631aa48c.png)
+# Screenshot Aplikasi
+![www ubi com - Brave 7_8_2022 10_26_12 AM](https://user-images.githubusercontent.com/103014406/177911263-da0d816a-992a-46b0-93b9-5c0e80f62bce.png)
+![www ubi com - Brave 7_8_2022 10_26_26 AM](https://user-images.githubusercontent.com/103014406/177911280-db1a843d-f7d8-4352-9224-656dc9dcaad8.png)
+
 
 Info : <br>
 *Untuk me-reply pesan, masuk ke laman <b>replies.php</b>

@@ -106,18 +106,21 @@ h1#tl-send {
 	font-size: 1.2em;
 	font-family: 'Twinkle Star';
 	font-weight: bold;
-	margin: 1em 0;
+	margin: 1em 0 -.5em;
 }
-
+form#send {
+	margin-bottom: -.4em;
+	width: 100%;
+}
 form#send ul li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin: auto;
-	width: 50%;
+	width: 100%;
 }
 form#send ul li label {
-	font-family: cursive;
+	font-family: 'Twinkle Star';
 }
 form#send ul li input {
 	border: none;
