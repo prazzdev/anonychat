@@ -8,6 +8,19 @@ $chat = query("SELECT * FROM chat");
 if( isset($_POST["cari"]) ) {
 	$chat = cari($_POST["keyword"]);
 }
+
+if( isset($_POST["submit"])) {
+
+	// cek apakah data berhasil ditambahkan atau tidak
+	if( tambah($_POST) > 0 ) {
+		echo "<script> alert('Makasih pesannya. xixixi');
+				document.location.href = 'index.php';</script>";
+	} else {
+		echo "<script> alert('Pesan gagal dikirim.');
+				document.location.href = 'index.php';</script>";
+	}
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,7 +50,18 @@ if( isset($_POST["cari"]) ) {
 		</form>
 		
 		<div id="send">
-			<a href="tambah.php" id="send">>> Kirim pesan ke Agung :v <<</a>
+			<h1 id="tl-send">Kirim Pesan atau Pertanyaan</h1>
+			<form action="" method="POST" id="send">
+				<ul>
+					<li>
+						<label for="message">Aku mau ngomong :</label>
+						<input type="text" name="message" id="message" required autofocus autocomplete="off">
+					</li>
+					<li>
+						<button type="submit" name="submit">kirim</button>
+					</li>
+				</ul>
+			</form>
 		</div>
 
 		<table>
